@@ -14,19 +14,3 @@ var txt2 = 'Document Title is ' + document.title + "<br>";
     document.getElementById("myDocument").innerHTML = txt2;
 }
 reDisplay()
-
-/*
-let myDocument = 'Document Title is ' +`${document.title}` + `this document was last updated on ${document.lastModified}` 
-let myDocument = document.querySelector("#myDocument").innerText = `${myDocument}`
-function reDisplay() {
-    var txt = 'windows size is ' + window.innerWidth + " width by " +window.innerHeight+"tall.<br>";
-    txt += 'window offset is '+ window.screenX + " from the left edge and " + window.screenY + "from the top of the display.<br>";
-    txt += "the page URL is " +window.location + "<br>";
-    document.getElementById("myWindow").innerHTML = txt; 
-
-var txt2 = 'Document Title is ' + document.title + "<br>";
-    txt2 += 'this document was last updated on ' + document.lastModified + "<br>";
-    document.getElementById("myDocument").innerHTML = txt2;
-}
-reDisplay();
-*/
